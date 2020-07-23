@@ -1,0 +1,23 @@
+'use strict';
+
+//  В этом файле хранятся константы
+
+(function () {
+  var AVATAR_WIDTH = 40;
+  var AVATAR_HEIGHT = 40;
+  var MAINPIN_WIDTH = 62;
+  var MAINPIN_HEIGHT = 62;
+  var MAINPIN_END_HEIGHT = 22;
+  var ENTER_KEYCODE = 13;
+  var ESC_KEYCODE = 27;
+
+  window.const = {
+    AVATAR_WIDTH: AVATAR_WIDTH,
+    AVATAR_HEIGHT: AVATAR_HEIGHT,
+    MAINPIN_WIDTH: MAINPIN_WIDTH,
+    MAINPIN_HEIGHT: MAINPIN_HEIGHT,
+    ENTER_KEYCODE: ENTER_KEYCODE,
+    ESC_KEYCODE: ESC_KEYCODE,
+    MAINPIN_END_HEIGHT: MAINPIN_END_HEIGHT,
+  };
+})();
